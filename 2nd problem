@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "id": "NSA-1",
+      "name": "Pod Security Policy",
+      "description": "Ensure that a Pod Security Policy is in place",
+      "severity": "high",
+      "status": "fail"
+    },
+    {
+      "id": "NSA-2",
+      "name": "Network Policies",
+      "description": "Ensure that network policies are defined",
+      "severity": "medium",
+      "status": "pass"
+    }
+  ]
+}
