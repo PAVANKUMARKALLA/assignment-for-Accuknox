@@ -1,0 +1,63 @@
+Product Requirements Document
+User Needs
+
+1.Scan container images for vulnerabilities
+2.View vulnerability findings for all images
+3.Understand severity of vulnerabilities
+4.Identify critical and high vulnerabilities
+5.Prioritize images that need fixing
+6.Handle large repositories with thousands of images
+
+Key Features
+
+1.Automated container image scanning
+2.Vulnerability dashboard
+3.Severity classification
+4.Image prioritization
+5.Filtering and sorting capabilities
+6.Detailed vulnerability reports
+
+Low-Fidelity Wireframes
+Dashboard View
+
+text
++----------------------------------+
+|   Container Vulnerability Scanner |
++----------------------------------+
+| Total Images: 5000  | Scan Now   |
++----------------------------------+
+| Vulnerability Summary            |
+| Critical: 50 | High: 100 | Med: 200 |
++----------------------------------+
+| Top 5 Vulnerable Images          |
+| 1. image1:latest (10 Critical)   |
+| 2. image2:v1.2 (8 Critical)      |
+| 3. image3:v2.0 (5 Critical)      |
+| ...                              |
++----------------------------------+
+| Filter: [Severity v] [Image Name]|
++----------------------------------+
+| Image List                       |
+| Image Name | Criticals | Highs   |
+| image1     |    10     |   15    |
+| image2     |     8     |   12    |
+| ...                              |
++----------------------------------+
+Detailed Image View
+
+text
++----------------------------------+
+|   image1:latest                  |
++----------------------------------+
+| Vulnerabilities: 25              |
+| Critical: 10 | High: 15 | Med: 0 |
++----------------------------------+
+| Vulnerability List               |
+| CVE ID | Severity | Component    |
+| CVE-.. | Critical | libssl1.1    |
+| CVE-.. | High     | python3.8    |
+| ...                              |
++----------------------------------+
+| Actions: [Fix Now] [Ignore]      |
++----------------------------------+
+
